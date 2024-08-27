@@ -24,8 +24,8 @@ const Navbar = () => {
         {/* menu section  */}
 
         <div className="hidden xl:flex items-center gap-4 justify-between ">
-          {navMenu.map((nav) => (
-            <Link className=" hover:text-primary duration-200" href={nav.href}>{nav.title}</Link>
+          {navMenu.map((nav,index) => (
+            <Link key={index} className=" hover:text-primary duration-200" href={nav.href}>{nav.title}</Link>
           ))}
         </div>
 
