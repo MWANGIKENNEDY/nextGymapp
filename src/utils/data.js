@@ -1,0 +1,51 @@
+export const ProductsData = [
+  {
+    image: "/tab1.png",
+    title: "Tab1",
+    info: "This is a description for tab1.",
+    price: "$12.29",
+    category: "Yoga",
+  },
+  {
+    image: "/tab2.png",
+    title: "Tab2",
+    info: "This is a description for tab2.",
+    price: "$12.29",
+    category: "Yoga",
+  },
+  {
+    image: "/tab3.png",
+    title: "Tab3",
+    info: "This is a description for tab3.",
+    price: "$12.29",
+    category: "Yoga",
+  },
+  {
+    image: "/tab4.png",
+    title: "Tab4",
+    info: "This is a description for tab4.",
+    price: "$12.29",
+    category: "Fitness",
+  },
+  {
+    image: "/tab5.png",
+    title: "Tab5",
+    info: "This is a description for tab5.",
+    price: "$12.29",
+    category: "Fitness",
+  },
+  {
+    image: "/tab6.png",
+    title: "Tab6",
+    info: "This is a description for tab6.",
+    price: "$12.29",
+    category: "Muscles",
+  },
+  {
+    image: "/tab7.png",
+    title: "Tab7",
+    info: "This is a description for tab7.",
+    price: "$12.29",
+    category: "Muscles",
+  },
+];
